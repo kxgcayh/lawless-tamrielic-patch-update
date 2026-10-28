@@ -7,6 +7,15 @@ This repository contains no plugin data from other mods. It holds only the chang
 tools. You supply the original plugins; Spriggit extracts them on your machine and the build applies the
 changes and writes the new plugins.
 
+## Platforms
+
+Tested: macOS (arm64) only. Expected to work, but not run:
+
+- **Linux:** needs `bash`, `python3`, `find`, `grep` and the .NET 10 SDK.
+- **Windows:** run `bash build.sh` from WSL or Git Bash; `cmd` and PowerShell do not work. Make sure `python3` exists
+  (Git Bash often only has `python`) and set `SPRIGGIT_DLL`, because the automatic DLL lookup only checks `$TMPDIR` and `/tmp`.
+  `.gitattributes` keeps `build.sh` on LF line endings, which bash needs.
+
 ## What you need
 
 Download these yourself and put the six plugin files in `inputs/` (create the folder):
