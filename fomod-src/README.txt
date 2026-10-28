@@ -58,3 +58,9 @@ Verification and limits
 Both vanilla plugins were built from Spriggit YAML and re-serialized: no differences other than
 line order within a file. Neither plugin contains a Creation Club master (binary scan).
 Item distribution has not been tested in game.
+
+Credits and permissions
+-----------------------
+Based on the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul" (Nexus mod 88080, free use with credit) and on
+Tamrielic Distribution by Tate Taylor (Nexus mod 71372, use with credit, not in sold files). Credit both authors if
+you reuse this. This patch is free and must stay free: do not sell it or put it behind a paywall.

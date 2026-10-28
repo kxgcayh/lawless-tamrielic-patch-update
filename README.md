@@ -54,11 +54,20 @@ See [BUILDING.md](BUILDING.md) for building the plugins yourself (Spriggit, the 
 
 ## Credits and permissions
 
-The patch changes plugins from the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul" so that they work
-with Tamrielic Distribution by Tate Taylor. This repository does not contain those plugins or any record
-copied from them. The built
-FOMOD zip does contain modified plugins, so check the Lawless and Tamrielic Distribution permissions before you
-distribute that zip. No Creation Club assets are included; the Creation Club variant references them by
-FormKey only.
+The patch changes plugins from the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul"
+([Nexus mod 88080](https://www.nexusmods.com/skyrimspecialedition/mods/88080)) so that they work with
+[Tamrielic Distribution](https://www.nexusmods.com/skyrimspecialedition/mods/71372) by Tate Taylor.
 
-No license is set for the repository yet.
+- **Lawless:** its permissions are free use, as long as the author is credited and your work stays free use
+  too. This patch is free and credits the Lawless author.
+- **Tamrielic Distribution:** upload, modification and asset use are allowed with credit to the creator.
+  Asset use in mods or files that are sold (money, Steam Workshop and similar) is not allowed. This patch is free.
+  The built plugins use item FormKeys and one AI package record from Tamrielic Distribution 1.4.1.
+- **Do not sell or paywall the built zip.**
+- No Creation Club assets are included; the Creation Club variant references them by FormKey only.
+
+## License
+
+The code and documentation in this repository (`tools/`, `build.sh`, `tests/`, `patch/`, `fomod-src/`, the
+Markdown files) are under the [MIT License](LICENSE). The built plugins in the FOMOD zip are derived from the
+mods above and stay under their permissions, as described in the previous section.
