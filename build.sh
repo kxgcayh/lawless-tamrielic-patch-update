@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Build both plugins in both variants from YOUR copies of the original plugins and package the FOMOD zip.
-# Inputs (put them in inputs/, see README.md):
+# Inputs (put them in inputs/, see BUILDING.md):
 #   Bandit War - Tamrielic Distribution.esp           Lawless Patch FOMOD 2.1.0 (Nexus mod 88080, file 473986)
 #   Bandit War Expanded - Tamrielic Distribution.esp  Lawless Patch FOMOD 2.1.0
 #   Tamrielic Distribution.esp                        Tamrielic Distribution 1.4.1, "00 Core"
@@ -38,12 +38,12 @@ find_dll() {
 }
 DLL="$(find_dll || true)"
 if [ -z "$DLL" ] || [ ! -f "$DLL" ]; then
-  echo "Spriggit.Yaml.Skyrim.dll 0.41.0 not found. See README.md ('Spriggit'), or set SPRIGGIT_DLL." >&2
+  echo "Spriggit.Yaml.Skyrim.dll 0.41.0 not found. See BUILDING.md ('Spriggit'), or set SPRIGGIT_DLL." >&2
   exit 1
 fi
 
 for f in "$TD" "${PLUGINS[0]#*|}" "${PLUGINS[1]#*|}" "${MODULES[0]#*|}" "${MODULES[1]#*|}" "${MODULES[2]#*|}"; do
-  [ -f "$INPUTS/$f" ] || { echo "missing input: $INPUTS/$f (see README.md)" >&2; exit 1; }
+  [ -f "$INPUTS/$f" ] || { echo "missing input: $INPUTS/$f (see BUILDING.md)" >&2; exit 1; }
 done
 (cd "$INPUTS" && python3 -I - "$ROOT/patch/inputs.sha256" <<'PY'
 import hashlib, sys
