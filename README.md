@@ -91,7 +91,12 @@ spriggit serialize --InputPath "inputs/Tamrielic Distribution.esp" --OutputPath 
 
 The CLI prints its version with a nonzero exit status; that is normal. On macOS the CLI itself crashes during
 a conversion (`kernel32.dll` cannot be loaded by a dependency's process tracker), so there the DLL has to
-come from a Windows or Linux run, or from a NuGet restore of `Spriggit.Yaml.Skyrim` 0.41.0.
+come from the package download described below.
+
+`dotnet restore` rejects `Spriggit.Yaml.Skyrim` (it is a tool-type package). Instead download
+`https://api.nuget.org/v3-flatcontainer/spriggit.yaml.skyrim/0.41.0/spriggit.yaml.skyrim.0.41.0.nupkg`, unzip it
+(a `.nupkg` is a zip) and set `SPRIGGIT_DLL` to `tools/net10.0/any/Spriggit.Yaml.Skyrim.dll` inside it. With that DLL
+`bash build.sh` ran to the end on macOS (arm64, .NET 10.0.402); only the CLI crashes there.
 
 These steps are untested on a machine that has never run Spriggit.
 
