@@ -1,0 +1,7 @@
+build/
+dist/
+_research/
+inputs/
+.DS_Store
+*.zip
+__pycache__/

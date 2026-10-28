@@ -1,0 +1,197 @@
+{
+  "bandit-war": {
+    "expected_substitutions": 43,
+    "import_from_td": [],
+    "master_replace": {
+      "insert": [
+        "ccbgssse031-advcyrus.esm",
+        "ccbgssse041-netchleather.esl",
+        "ccbgssse056-ba_silver.esl"
+      ],
+      "remove": "Tamrielic Distribution.esp"
+    },
+    "new_outfits": [
+      {
+        "editor_id": "OREO_OutfitDMDBoatswain",
+        "formkey": "000800:Bandit War - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "000928"
+          },
+          {
+            "cc_from": "dmd",
+            "proxy": "000929"
+          }
+        ]
+      },
+      {
+        "editor_id": "OREO_OutfitDMDScrub",
+        "formkey": "000801:Bandit War - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "00092D"
+          },
+          "07BC15:Skyrim.esm"
+        ]
+      },
+      {
+        "editor_id": "OREO_OutfitAASilverArmorNoHelm",
+        "formkey": "000802:Bandit War - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "silver",
+            "proxy": "0009B7"
+          },
+          {
+            "cc_from": "silver",
+            "proxy": "0009B8"
+          },
+          {
+            "cc_from": "silver",
+            "proxy": "0009B9"
+          }
+        ]
+      }
+    ],
+    "substitutions": {
+      "00087D:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00087E:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00087F:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000880:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000881:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000882:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000883:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000884:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000885:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000886:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00091F:Tamrielic Distribution.esp": "07A91A:Skyrim.esm",
+      "000935:Tamrielic Distribution.esp": "000800:Bandit War - Tamrielic Distribution.esp",
+      "000936:Tamrielic Distribution.esp": "000801:Bandit War - Tamrielic Distribution.esp",
+      "00094A:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00094B:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00094C:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "00094D:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000950:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "000956:Tamrielic Distribution.esp": {
+        "cc_from": "netch"
+      },
+      "0009C0:Tamrielic Distribution.esp": "000802:Bandit War - Tamrielic Distribution.esp"
+    },
+    "vanilla_override": {
+      "00094C": "013922:Skyrim.esm"
+    }
+  },
+  "bandit-war-expanded": {
+    "expected_substitutions": 80,
+    "import_from_td": [
+      {
+        "folder": "Packages",
+        "new_editor_id": "OREO_JareeRaStayPutForSolitudeOpening",
+        "new_formkey": "000804:Bandit War Expanded - Tamrielic Distribution.esp",
+        "source_formid": "000937"
+      }
+    ],
+    "master_replace": {
+      "insert": [
+        "ccbgssse031-advcyrus.esm"
+      ],
+      "remove": "Tamrielic Distribution.esp"
+    },
+    "new_outfits": [
+      {
+        "editor_id": "OREO_OutfitDMDCaptainBlack",
+        "formkey": "000800:Bandit War Expanded - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "000922"
+          },
+          {
+            "cc_from": "dmd",
+            "proxy": "000924"
+          }
+        ]
+      },
+      {
+        "editor_id": "OREO_OutfitDMDCaptainBlue",
+        "formkey": "000801:Bandit War Expanded - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "000923"
+          },
+          {
+            "cc_from": "dmd",
+            "proxy": "000925"
+          }
+        ]
+      },
+      {
+        "editor_id": "OREO_OutfitDMDBoatswain",
+        "formkey": "000802:Bandit War Expanded - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "000928"
+          },
+          {
+            "cc_from": "dmd",
+            "proxy": "000929"
+          }
+        ]
+      },
+      {
+        "editor_id": "OREO_OutfitDMDScrub",
+        "formkey": "000803:Bandit War Expanded - Tamrielic Distribution.esp",
+        "items": [
+          {
+            "cc_from": "dmd",
+            "proxy": "00092D"
+          },
+          "07BC15:Skyrim.esm"
+        ]
+      }
+    ],
+    "substitutions": {
+      "00091F:Tamrielic Distribution.esp": "07A91A:Skyrim.esm",
+      "000920:Tamrielic Distribution.esp": "000800:Bandit War Expanded - Tamrielic Distribution.esp",
+      "000921:Tamrielic Distribution.esp": "000801:Bandit War Expanded - Tamrielic Distribution.esp",
+      "000935:Tamrielic Distribution.esp": "000802:Bandit War Expanded - Tamrielic Distribution.esp",
+      "000936:Tamrielic Distribution.esp": "000803:Bandit War Expanded - Tamrielic Distribution.esp",
+      "000937:Tamrielic Distribution.esp": "000804:Bandit War Expanded - Tamrielic Distribution.esp"
+    },
+    "vanilla_override": {}
+  }
+}

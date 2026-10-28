@@ -1,0 +1,59 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Lawless - Tamrielic Distribution Patch Update</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="Armor and outfit source">
+      <optionalFileGroups order="Explicit">
+        <group name="Variant" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Vanilla (no Creation Club)">
+              <description>Bandits, Reavers and pirates receive the vanilla armor and clothing that Tamrielic Distribution 1.x used as its default. Needs only Skyrim.esm, Dragonborn.esm and Bandit War.esp. Works on Skyrim SE without the Anniversary Edition content.
+
+Choose this if you do not own, or do not load, the Creation Club files listed under the other option.</description>
+              <files>
+                <folder source="vanilla" destination="" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="Recommended"/>
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="ccbgssse041-netchleather.esl" state="Active"/>
+                        <fileDependency file="ccbgssse031-advcyrus.esm" state="Active"/>
+                        <fileDependency file="ccbgssse056-ba_silver.esl" state="Active"/>
+                      </dependencies>
+                      <type name="Optional"/>
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Creation Club (Netch Leather, Dead Man's Dread, Silver Armor)">
+              <description>Solstheim Reavers use the Creation Club Netch Leather armor, pirates and sailors wear Dead Man's Dread clothing, and Atar wears Alternative Armors - Silver.
+
+Requires these files to be installed and active: ccbgssse041-netchleather.esl, ccbgssse031-advcyrus.esm, ccbgssse056-ba_silver.esl. All three ship with the Skyrim Anniversary Edition upgrade. If any is missing the game reports a missing master.</description>
+              <files>
+                <folder source="creation-club" destination="" priority="0"/>
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="Optional"/>
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="ccbgssse041-netchleather.esl" state="Active"/>
+                        <fileDependency file="ccbgssse031-advcyrus.esm" state="Active"/>
+                        <fileDependency file="ccbgssse056-ba_silver.esl" state="Active"/>
+                      </dependencies>
+                      <type name="Recommended"/>
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>
