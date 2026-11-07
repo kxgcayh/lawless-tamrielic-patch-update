@@ -98,4 +98,5 @@ fi
 cp fomod-src/README.txt "$BUILD/package/"
 mkdir -p "$BUILD/package/fomod"
 cp fomod-src/info.xml fomod-src/ModuleConfig.xml "$BUILD/package/fomod/"
+cp LICENSE THIRD-PARTY-NOTICES.txt "$BUILD/package/"
 python3 -I tools/package.py "$BUILD/package" "$ZIP"
