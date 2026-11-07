@@ -1,6 +1,6 @@
 # Building from source
 
-Back to [README.md](README.md). The technical notes are in [NOTES.md](NOTES.md).
+Back to [README.md](README.md).
 
 
 This repository contains no plugin data from other mods. It holds only the changes (`patch/`) and the
@@ -117,7 +117,6 @@ fomod-src/                FOMOD info.xml, ModuleConfig.xml, README.txt shipped i
 build.sh                  Build and package
 tests/                    Unit test of apply_patch.py (python3 -m unittest discover tests)
 BUILDING.md               How to build from source
-NOTES.md                  Technical notes and the full record mapping
 inputs/                   Your copies of the original plugins (not tracked)
 build/, dist/             Generated (not tracked)
 ```

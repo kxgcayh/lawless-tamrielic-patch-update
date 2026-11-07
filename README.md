@@ -34,7 +34,6 @@ and neither depends on Tamrielic Distribution.
 The installer preselects Creation Club when all three files are active, and Vanilla otherwise. The three
 Creation Club files are part of the Anniversary Edition bundle.
 
-The item-by-item mapping and the technical details are in [NOTES.md](NOTES.md).
 
 ## Install
 

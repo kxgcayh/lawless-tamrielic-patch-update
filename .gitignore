@@ -7,3 +7,5 @@ inputs/
 __pycache__/
 KNOWLEDGEBASE*
 *.local.md
+NOTES.md
+docs/
