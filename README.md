@@ -8,6 +8,12 @@ they load with Tamrielic Distribution 2.0 and later:
 
 Skyrim Special Edition and Anniversary Edition. Not tested on VR.
 
+## Requirements
+
+- [Lawless - A Bandit Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/88080) with its Lawless Patch FOMOD 2.1.0, two of whose plugins this patch replaces
+- [Tamrielic Distribution](https://www.nexusmods.com/skyrimspecialedition/mods/71372) 2.0 or later, the mod these plugins distribute items from
+- Creation Club variant only: `ccbgssse041-netchleather.esl`, `ccbgssse031-advcyrus.esm` and `ccbgssse056-ba_silver.esl`, which come with the Anniversary Edition and have no Nexus page
+
 ## The problem
 
 Both original plugins master `Tamrielic Distribution.esp`. Tamrielic Distribution 2.0 replaced it with
@@ -53,6 +59,8 @@ See [BUILDING.md](BUILDING.md) for building the plugins yourself (Spriggit, the 
 
 ## Credits and permissions
 
+Permissions read from the Nexus pages on 2026-11-11.
+
 The patch changes plugins from the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul" by Ooreeoo
 ([Nexus mod 88080](https://www.nexusmods.com/skyrimspecialedition/mods/88080)) so that they work with
 [Tamrielic Distribution](https://www.nexusmods.com/skyrimspecialedition/mods/71372) by Tate Taylor
@@ -66,6 +74,17 @@ The patch changes plugins from the Lawless Patch FOMOD for "Lawless - A Bandit O
   The built plugins use item FormKeys and one AI package record from Tamrielic Distribution 1.4.1.
 - **Do not sell or paywall the built zip.**
 - No Creation Club assets are included; the Creation Club variant references them by FormKey only.
+
+## More mods
+
+Other Skyrim mods by kxgcayh:
+
+- [waccf-simonrim-skypatcher-patch](https://github.com/kxgcayh/waccf-simonrim-skypatcher-patch): Restores Simonrim enchantments, charges and names, and Gourmet effects, over WACCF's SkyPatcher configs.
+- [odin-mysticism-adamant-patch](https://github.com/kxgcayh/odin-mysticism-adamant-patch): Lets Odin - Skyrim Magic Overhaul run with Mysticism and Adamant.
+- [tposc-compat-patch](https://github.com/kxgcayh/tposc-compat-patch): The People Of Skyrim Complete patch: forwards USSEP fixes and keeps its landscape and navmesh over Cutting Room Floor.
+- [beasthhbb-ibeasts-jkj-patch](https://github.com/kxgcayh/beasthhbb-ibeasts-jkj-patch): Fixes headless and dark-faced Khajiit when Project ja-Kha'jay is used with BeastHHBB and iBeasts.
+- [UntarnishedUI-QuickLootIE-Patch](https://github.com/kxgcayh/UntarnishedUI-QuickLootIE-Patch): Untarnished UI skins for QuickLoot IE 4.x.
+- [WhereWasI](https://github.com/kxgcayh/WhereWasI): SKSE plugin: a recap on save load after a break.
 
 ## License
 
