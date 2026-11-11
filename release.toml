@@ -1,0 +1,23 @@
+name = "Lawless-Tamrielic-Distribution-Patch-Update"
+display_name = "Lawless - Tamrielic Distribution Patch Update"
+version = "1.0"
+description = "Replaces the Tamrielic Distribution patches of the Lawless Patch FOMOD for Tamrielic Distribution 2.0 and later. Choose between a vanilla variant and a Creation Club variant."
+
+# archive path = source path (relative to this folder); build/package/ is written by: bash build.sh
+# The FOMOD is laid out flat (fomod/ plus one folder per option) so MO2 runs the installer on the release zip itself.
+[files]
+"fomod/info.xml" = "fomod-src/info.xml"
+"fomod/ModuleConfig.xml" = "fomod-src/ModuleConfig.xml"
+"vanilla/Bandit War - Tamrielic Distribution.esp" = "build/package/vanilla/Bandit War - Tamrielic Distribution.esp"
+"vanilla/Bandit War Expanded - Tamrielic Distribution.esp" = "build/package/vanilla/Bandit War Expanded - Tamrielic Distribution.esp"
+"creation-club/Bandit War - Tamrielic Distribution.esp" = "build/package/creation-club/Bandit War - Tamrielic Distribution.esp"
+"creation-club/Bandit War Expanded - Tamrielic Distribution.esp" = "build/package/creation-club/Bandit War Expanded - Tamrielic Distribution.esp"
+"README.txt" = "fomod-src/README.txt"
+"LICENSE" = "LICENSE"
+"THIRD-PARTY-NOTICES.txt" = "THIRD-PARTY-NOTICES.txt"
+
+[nexus]
+mod_category = 84  # Nexus mod category: Patches; written as category= in the github .meta
+
+[github]
+repo = "kxgcayh/lawless-tamrielic-patch-update"
