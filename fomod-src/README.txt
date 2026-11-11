@@ -61,6 +61,6 @@ Item distribution has not been tested in game.
 
 Credits and permissions
 -----------------------
-Based on the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul" (Nexus mod 88080, free use with credit) and on
-Tamrielic Distribution by Tate Taylor (Nexus mod 71372, use with credit, not in sold files). Credit both authors if
-you reuse this. This patch is free and must stay free: do not sell it or put it behind a paywall.
+Based on the Lawless Patch FOMOD for "Lawless - A Bandit Overhaul" by Ooreeoo (Nexus mod 88080, free use with credit)
+and on Tamrielic Distribution by Tate Taylor, Nexus user TateTaylorOH (Nexus mod 71372, use with credit, not in sold
+files). Credit both authors if you reuse this. This patch is free and must stay free: do not sell it or put it behind a paywall.
