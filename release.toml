@@ -1,6 +1,6 @@
 name = "Lawless-Tamrielic-Distribution-Patch-Update"
 display_name = "Lawless - Tamrielic Distribution Patch Update"
-version = "1.0"
+version = "1.0.1"
 description = "Replaces the Tamrielic Distribution patches of the Lawless Patch FOMOD for Tamrielic Distribution 2.0 and later. Choose between a vanilla variant and a Creation Club variant."
 
 # archive path = source path (relative to this folder); build/package/ is written by: bash build.sh
